@@ -23,9 +23,9 @@ class VideoGameFullTest extends Simulation {
 
   before{
 
-    println(s"Running Test With ${USERCOUNT} users")
-    println(s"Ramping Users over ${RAMPDURATION} seconds")
-    println(s"Total Test Duration : ${TESTDURATION} seconds")
+    println(s"Running Performance Scaling Test With ${USERCOUNT} users")
+    println(s"Ramping Virtual Users over ${RAMPDURATION} seconds")
+    println(s"Total Performance Test Duration : ${TESTDURATION} seconds")
 
   }
 
